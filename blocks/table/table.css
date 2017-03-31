@@ -21,7 +21,7 @@
 .table__tr:first-child {
     background: #c4092f;
     border-top: 1px solid #c4092f;
-border-bottom: none; 
+	border-bottom: none; 
 }
 
 .table__tr:last-child {
@@ -38,10 +38,12 @@ border-bottom: none;
 
 .table__th:first-child {
 	border-left: 1px solid #c4092f;
+	border-top-left-radius: 5px;
 }
 
 .table__th:last-child {
 	border-right: 1px solid #c4092f;
+	border-top-right-radius: 5px;
 }
 
 .table__th_name {
