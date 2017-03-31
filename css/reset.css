@@ -230,27 +230,6 @@ input[type="submit"]{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 720px) {
-	.container {
-		width: 720px;
-	}
-}
-
-
-@media only screen and (min-width: 992px) {
-	.container {
-	    width: 720px;
-	}
-}
-
-
-@media only screen and (min-width: 1200px) {
-	.container {
-	    width: 720px;
-	}
-}
-
-
 @media (min-width: 720px) {
 	.col-md-4 {
 		-webkit-box-flex: 0;
@@ -259,7 +238,25 @@ input[type="submit"]{
 		flex: 0 0 33.333333%;
 		max-width: 33.333333%;
 	}
+	.container {
+		width: 720px;
+	}
 }
+
+@media (min-width: 992px) {
+	.container {
+	    width: 720px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+	    width: 720px;
+	}
+}
+
+
+
    
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
