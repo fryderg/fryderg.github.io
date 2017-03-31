@@ -230,11 +230,11 @@ input[type="submit"]{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 720px) {
+/*@media only screen and (min-width: 720px) {
 	.container {
 		width: 720px;
 	}
-}
+}*/
 
 @media (min-width: 720px) {
 	.col-md-4 {
