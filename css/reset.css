@@ -238,6 +238,9 @@ input[type="submit"]{
 		flex: 0 0 33.333333%;
 		max-width: 33.333333%;
 	}
+	.container {
+	    width: 700px;
+	}
 }
 
 @media (min-width: 992px) {
