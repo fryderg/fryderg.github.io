@@ -89,13 +89,13 @@
 		width: 18px;
 		height: 18px;
 	}
-	.checkbox__label:before {	
+	.checkbox__label:before {
 		left: 5px;
 		top: 2px;
 		width: 6px;
 		height: 11px;
-		border-bottom: 3px solid #fff;
-		border-right: 3px solid #fff;
+		z-index: 100;
+		border-width: 3px;
 	}
 	.checkbox__text-label {
 		height: 18px;
