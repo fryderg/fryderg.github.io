@@ -24,7 +24,8 @@
     background: #c4092f;
 }
 
-.table__tr:last-child {
+.table__tr:last-child,
+.table__tr:first-child {
 	border-bottom: none; 
 }
 
