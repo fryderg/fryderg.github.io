@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Тестовое задание</title>
+        <meta name="description" content="Тестовое задание">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--[if lt IE 9]> 
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div class="wrapper">
+			<div class="content">
+				<header class="header">
+					<img src="blocks/header/DUCK.png" class="header__logo">
+				</header>
+				<section class="section">
+					<div class="container">
+						<h1 class="section__text section__text_size-1">&iexcl;Ay caramba!</h1>
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+									<div class="input">
+										<input type="text" class="input__field">
+										<p class="input__placeholder">Имя</p>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+									<div class="input">
+										<input type="text" class="input__field">
+										<p class="input__placeholder">Фамилия</p>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+									<div class="input">
+										<input type="email" class="input__field">
+										<p class="input__placeholder">Email</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+									<ul class="ul-block">
+										<li class="ul-block__item ul-block__item_inline-block">
+											<div class="checkbox">
+												<label class="checkbox__label" for="uno"></label>
+												<input type="checkbox" name="options" class="checkbox__input" id="uno">
+											</div>
+											<label class="checkbox__text-label" for="uno">Uno</label>
+										</li>
+										<li class="ul-block__item ul-block__item_inline-block">
+											<div class="checkbox">
+												<label class="checkbox__label" for="dos"></label>
+												<input type="checkbox" name="options" class="checkbox__input" id="dos">
+											</div>
+											<label class="checkbox__text-label" for="dos">Dos</label>
+										</li>
+										<li class="ul-block__item ul-block__item_inline-block">
+											<div class="checkbox">
+												<label class="checkbox__label checkbox__label_checked" for="tres"></label>
+												<input type="checkbox" name="options" class="checkbox__input" id="tres" checked>
+											</div>
+											<label class="checkbox__text-label" for="tres">Tres</label>
+										</li>
+									</ul>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+									<ul class="ul-block">
+										<li class="ul-block__item ul-block__item_inline-block">
+											<div class="radio">
+												<input type="radio" name="fruit" class="radio__input" value="off" checked>
+												<input type="radio" name="fruit" class="radio__input" value="on">
+												<span class="radio__button"></span>
+												<span class="radio__tumbler"></span>
+												<label class="radio__hidden-label"></label>
+											</div>
+											<label class="radio__text-label">Включи меня</label>
+										</li>
+										<li class="ul-block__item ul-block__item_inline-block">
+											<div class="radio">
+												<input type="radio" name="vegetables" class="radio__input" value="off">
+												<input type="radio" name="vegetables" class="radio__input" value="on" checked>
+												<span class="radio__button radio__button_on"></span>
+												<span class="radio__tumbler radio__tumbler_on"></span>
+												<label class="radio__hidden-label"></label>
+											</div>
+											<label class="radio__text-label">Выключи меня</label>
+										</li>
+									</ul>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+									<button class="button button_send" type="button">Отправить <i class="fa fa-chevron-right section__icon" aria-hidden="true"></i></button>
+								</div>
+							</div>
+					</div>
+				</section>
+				<section class="section section_without-padding">
+					<div class="container">
+						<h2 class="section__text section__text_size-2">Автомобили в наличии</h1>
+						<table class="table">
+							<tr class="table__tr">
+								<th class="table__th table__th_name">Название</th>
+								<th class="table__th table__th_year">Год</th>
+								<th class="table__th table__th_color">Цвет</th>
+								<th class="table__th table__th_status">Статус</th>
+								<th class="table__th table__th_price">Цена</th>
+								<th class="table__th table__th_button"></th>
+							</tr>
+							<tr class="table__tr">
+								<td class="table__td">
+									<p class="table__text">1.6 MT Ambiente 85 л.с. МКПП</p>
+									<p class="table__subtext">+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text">2012</p>
+								</td>
+								<td class="table__td">
+									<span class="table__marker table__marker_black-color"></span>
+								</td>
+								<td class="table__td">
+									<p class="table__text">Ожидается</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text table__text_price">1 618 000 руб.</p>
+								</td>
+								<td class="table__td">
+									<button type="button" class="button table__button">Запрос</button>
+								</td>
+							</tr>
+							<tr class="table__tr">
+								<td class="table__td">
+									<p class="table__text">1.6 MT Ambiente Plus 105 л.с. МКПП</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text">2012</p>
+								</td>
+								<td class="table__td">
+									<span class="table__marker table__marker_white-color"></span>
+								</td>
+								<td class="table__td">
+									<p class="table__text">Ожидается</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text table__text_price">1 189 900 руб.</p>
+								</td>
+								<td class="table__td">
+									<button type="button" class="button table__button">Запрос</button>
+								</td>
+							</tr>
+							<tr class="table__tr">
+								<td class="table__td">
+									<p class="table__text">1.6 MT Trend 105 л.с. МКПП</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text">2012</p>
+								</td>
+								<td class="table__td">
+									<span class="table__marker table__marker_black-color"></span>
+								</td>
+								<td class="table__td">
+									<p class="table__text">В наличии</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text table__text_price">1 459 000 руб.</p>
+								</td>
+								<td class="table__td">
+									<button type="button" class="button table__button">Запрос</button>
+								</td>
+							</tr>
+							<tr class="table__tr">
+								<td class="table__td">
+									<p class="table__text">1.6 PowerShift Trend Sport 105 л.с. АКПП</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text">2012</p>
+								</td>
+								<td class="table__td">
+									<span class="table__marker table__marker_gray-color"></span>
+								</td>
+								<td class="table__td">
+									<p class="table__text">Ожидается</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text table__text_price">1 459 000 руб.</p>
+								</td>
+								<td class="table__td">
+									<button type="button" class="button table__button">Запрос</button>
+								</td>
+							</tr>
+							<tr class="table__tr">
+								<td class="table__td">
+									<p class="table__text">2.0 MT Trend Sport 150 л.с. МКПП</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text">2012</p>
+								</td>
+								<td class="table__td">
+									<span class="table__marker table__marker_red-color"></span>
+								</td>
+								<td class="table__td">
+									<p class="table__text">Ожидается</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text table__text_price">768 000 руб.</p>
+								</td>
+								<td class="table__td">
+									<button type="button" class="button table__button">Запрос</button>
+								</td>
+							</tr>
+							<tr class="table__tr">
+								<td class="table__td">
+									<p class="table__text">2.0 PowerShift Trend Sport 150 л.с. АКПП</p>
+									<p class="table__subtext">+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text">2013</p>
+								</td>
+								<td class="table__td">
+									<span class="table__marker table__marker_green-color"></span>
+								</td>
+								<td class="table__td">
+									<p class="table__text">Нет в наличии</p>
+								</td>
+								<td class="table__td">
+									<p class="table__text table__text_price">821 000 руб.</p>
+								</td>
+								<td class="table__td">
+									<button type="button" class="button table__button">Запрос</button>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<ul class="ul-block ul-block_xs-table">
+						<li class="ul-block__row">
+							<ul class="ul-block">
+								<li class="ul-block__table-item ul-block__table-item_name">
+									<p class="table__text">1.6 MT Ambiente 85 л.с. МКПП</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_color">
+									<span class="table__marker table__marker_black-color"></span>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_price">
+									<p class="table__text table__text_price">1 618 000 руб.</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_subtext">
+									<p class="table__subtext">+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_year">
+									<p class="table__text">2012</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_status">
+									<p class="table__text">Ожидается</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_button">
+									<button type="button" class="button table__button">Запрос</button>
+								</li>
+							</ul>
+						</li>
+						<li class="ul-block__row">
+							<ul class="ul-block">
+								<li class="ul-block__table-item ul-block__table-item_name">
+									<p class="table__text">1.6 MT Ambiente Plus 105 л.с. МКПП</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_color">
+									<span class="table__marker table__marker_white-color"></span>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_price">
+									<p class="table__text table__text_price">1 189 900 руб.</p>
+									
+								</li><li class="ul-block__table-item ul-block__table-item_subtext">
+									<p class="table__subtext"></p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_year">
+									<p class="table__text">2012</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_status">
+									<p class="table__text">Ожидается</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_button">
+									<button type="button" class="button table__button">Запрос</button>
+								</li>
+							</ul>
+						</li>
+						<li class="ul-block__row">
+							<ul class="ul-block">
+								<li class="ul-block__table-item ul-block__table-item_name">
+									<p class="table__text">1.6 MT Trend 105 л.с. МКПП</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_color">
+									<span class="table__marker table__marker_black-color"></span>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_price">
+									<p class="table__text table__text_price">1 459 000 руб.</p>
+									
+								</li><li class="ul-block__table-item ul-block__table-item_subtext">
+									<p class="table__subtext"></p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_year">
+									<p class="table__text">2012</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_status">
+									<p class="table__text">В наличии</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_button">
+									<button type="button" class="button table__button">Запрос</button>
+								</li>
+							</ul>
+						</li>
+						<li class="ul-block__row">
+							<ul class="ul-block">
+								<li class="ul-block__table-item ul-block__table-item_name">
+									<p class="table__text">1.6 PowerShift Trend Sport 105 л.с. АКПП</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_color">
+									<span class="table__marker table__marker_gray-color"></span>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_price">
+									<p class="table__text table__text_price">1 459 000 руб.</p>
+									
+								</li><li class="ul-block__table-item ul-block__table-item_subtext">
+									<p class="table__subtext"></p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_year">
+									<p class="table__text">2012</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_status">
+									<p class="table__text">В наличии</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_button">
+									<button type="button" class="button table__button">Запрос</button>
+								</li>
+							</ul>
+						</li>
+						<li class="ul-block__row">
+							<ul class="ul-block">
+								<li class="ul-block__table-item ul-block__table-item_name">
+									<p class="table__text">2.0 MT Trend Sport 150 л.с. МКПП</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_color">
+									<span class="table__marker table__marker_red-color"></span>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_price">
+									<p class="table__text table__text_price">768 000 руб.</p>
+									
+								</li><li class="ul-block__table-item ul-block__table-item_subtext">
+									<p class="table__subtext"></p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_year">
+									<p class="table__text">2012</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_status">
+									<p class="table__text">Ожидается</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_button">
+									<button type="button" class="button table__button">Запрос</button>
+								</li>
+							</ul>
+						</li>
+						<li class="ul-block__row">
+							<ul class="ul-block">
+								<li class="ul-block__table-item ul-block__table-item_name">
+									<p class="table__text">2.0 PowerShift Trend Sport 150 л.с. АКПП</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_color">
+									<span class="table__marker table__marker_green-color"></span>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_price">
+									<p class="table__text table__text_price">821 000 руб.</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_subtext">
+									<p class="table__subtext">+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_year">
+									<p class="table__text">2013</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_status">
+									<p class="table__text">Нет в наличии</p>
+								
+								</li><li class="ul-block__table-item ul-block__table-item_button">
+									<button type="button" class="button table__button">Запрос</button>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+			</div>
+			<footer class="footer">
+				<p class="footer__text">© 2015 CAPTAIN QUACK</p>
+				<p class="footer__text">Десница тысячелетия и моллюск!</p>
+			</footer>
+		</div>
+		<script src="js/main.js"></script>
+    </body>
+</html>

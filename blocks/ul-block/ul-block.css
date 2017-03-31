@@ -1,0 +1,75 @@
+.ul-block {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+	overflow: auto;
+}
+
+.ul-block_xs-table {
+	display: block;
+	background: #f5f6f6;
+}
+
+.ul-block__row {
+	padding: 0.625em 0.9375em;
+	border-top: 1px solid #e3e4e4;
+}
+
+.ul-block__table-item_name {
+	width: 50%;
+	clear: both;
+}
+
+.ul-block__table-item_color {
+	width: 15%;
+}
+
+.ul-block__table-item_year {
+	width: 20%;
+}
+
+.ul-block__table-item_price,
+.ul-block__table-item_status {
+	width: 35%;
+}
+
+.ul-block__table-item_price {
+	text-align: right;
+}
+
+.ul-block__table-item_subtext{
+	width: 100%;
+}
+
+.ul-block__table-item_button {
+	width: 45%;
+	padding: 0;
+	text-align: right;
+}
+
+.ul-block__item {
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.ul-block__item_inline-block {
+    display: inline-block;
+    padding-right: 1.25em;
+    margin-bottom: 0.625em;
+}
+
+.ul-block__table-item {
+    display: inline-block;
+    float: left;
+    padding: 0.3125em 0;
+}
+
+
+@media only screen and (min-width : 720px) {
+	.ul-block_xs-table {
+		display: none;
+	}
+}

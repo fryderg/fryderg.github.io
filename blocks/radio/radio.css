@@ -1,0 +1,108 @@
+.radio {
+    position: relative;
+	width: 60px;
+	height: 30px;
+    display: inline-block;
+}
+
+.radio__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.radio__button {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: transparent;
+    width: 100%;
+    display: block;
+    height: 100%;
+    border: 1px solid #dcdcdc;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-khtml-border-radius: 25px;
+	border-radius: 25px;
+    -webkit-transition: background .3s ease;
+    -moz-transition: background .3s ease;
+    -o-transition: background .3s ease;
+    transition: background .3s ease;
+}
+
+.radio__button_on {
+	background: #dcdcdc;
+}
+
+.radio__tumbler {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: #c4092f;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -khtml-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-transition: left .3s ease;
+    -moz-transition: left .3s ease;
+    -o-transition: left .3s ease;
+    transition: left .3s ease;
+}
+
+.radio__hidden-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    z-index: 10;
+}
+
+.radio__tumbler_on {
+	left: 50%;
+}
+
+.radio__text-label {
+    height: 20px;
+    float: right;
+    margin: 0;
+    font-size: 0.875em;
+    line-height: 30px;
+    padding-left: 0.625em;
+}
+
+.radio__hidden-label:hover,
+.radio__text-label:hover {
+	cursor: pointer;
+}
+
+
+@media only screen and (min-width : 576px) {
+	.radio {
+		width: 40px;
+		height: 20px;
+	}	
+	.radio__button {
+		border: 1px solid #dcdcdc;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-khtml-border-radius: 10px;
+		border-radius: 10px;
+	}
+	.radio__text-label {
+		height: 20px;
+		float: right;
+		margin: 0;
+		font-size: 0.75em;
+		line-height: 20px;
+		padding-left: 0.625em;
+	}
+}

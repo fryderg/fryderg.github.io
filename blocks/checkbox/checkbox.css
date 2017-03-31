@@ -1,0 +1,106 @@
+.checkbox__input {
+    position: relative;
+    top: 0;
+    left: 0;
+	width: 0;
+    height: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+}
+
+.checkbox__label {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #fff;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #dcdcdc;
+	-webkit-transition: border-color .3s ease;
+    -moz-transition: border-color .3s ease;
+    -o-transition: border-color .3s ease;
+    transition: border-color .3s ease;
+}
+
+.checkbox__label:hover,
+.checkbox__text-label:hover {
+	cursor: pointer;
+}
+
+.checkbox__label:hover {
+	border-color: #c50f34;
+}
+
+.checkbox__label:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+	left: 8px;
+	top: 3px;
+	width: 8px;
+	height: 15px;
+	border-bottom: 4px solid #fff;
+	border-right: 4px solid #fff;
+    
+    border-color: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -khtml-border-radius: 0;
+    border-radius: 0;
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+
+.checkbox__label_checked:before {
+    border-color: #c50f34;
+}
+
+.checkbox__text-label {
+    height: 26px;
+    float: right;
+    margin: 0;
+    font-size: 0.875em;
+    line-height: 26px;
+    padding-left: 0.75em;
+}
+
+.checkbox__text-label:hover {
+	cursor: pointer;
+}
+
+
+
+@media only screen and (min-width : 576px) {	
+	.checkbox {
+		display: inline-block;
+		width: 18px;
+		height: 18px;
+	}
+	.checkbox__label:before {	
+		left: 5px;
+		top: 2px;
+		width: 6px;
+		height: 11px;
+		border-bottom: 3px solid #fff;
+		border-right: 3px solid #fff;
+	}
+	.checkbox__text-label {
+		height: 18px;
+		font-size: 0.75em;
+		line-height: 18px;
+		padding-left: 0.625em;
+	}
+}

@@ -1,0 +1,26 @@
+.header {
+    height: 75px;
+    background: #282d30;
+}
+
+.header__logo {
+    width: 78.125%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+	padding: 0.625em;
+}
+
+
+@media only screen and (min-width : 320px) {	
+	
+}
+
+@media only screen and (min-width : 480px) {	
+	.header__logo {
+		height: 75px;
+		width: auto;
+		padding: 0.625em 0;
+		box-sizing: content-box;
+	}	
+}

@@ -1,0 +1,143 @@
+.table {
+    background: #f5f6f6;
+	display: none;
+    overflow: hidden;
+	position: relative;
+    width: 100%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table__tr {
+	border: none;
+	border-bottom: 1px solid #e6e9ea; 
+}
+
+.table__tr:first-child {
+    background: #c4092f;
+}
+
+.table__tr:last-child {
+	border-bottom: none; 
+}
+
+.table__th {
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none !important;
+}
+
+.table__th_name {
+	width: 35%;
+}
+
+.table__th_year {
+	width: 10%;
+}
+
+.table__th_color {
+	width: 8%;
+}
+
+.table__th_status {
+	width: 15%;
+}
+
+.table__th_price {
+	width: 17%;
+}
+
+.table__th_button {
+	width: 15%;
+}
+
+.table__text {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.875em;
+    color: #323232;
+}
+
+.table__text_price {
+    font-size: 0.9375em;
+}
+
+.table__subtext {
+    margin: 0;
+    color: #8b9497;
+    font-size: 0.75em;
+}
+
+.table__button {
+    color: #8b9497;
+	font-size: 0.875em;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: auto;
+    padding: 0.25em 0.9375em;
+}
+
+.table__button,
+.table__button:focus {
+    outline: none;
+}
+
+.table__button:hover {
+    color: #fff;
+	background: #282d30;
+}
+
+.table__marker {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    background: transparent;
+    border-radius: 100%;
+}
+
+.table__marker_white-color {
+    border: 1px solid #e0e0e0;
+	background: #fff;
+}
+
+.table__marker_black-color {
+	background: #000;
+}
+
+.table__marker_gray-color {
+	background: #cbcbcc;
+}
+
+.table__marker_red-color {
+	background: #d74345;
+}
+
+.table__marker_green-color {
+	background: #88c504;
+}
+
+
+@media only screen and (min-width : 720px) {
+	.table {
+		display: table;
+	}
+	.table__button {
+		width: 100%;
+	}
+}
