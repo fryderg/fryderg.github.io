@@ -86,12 +86,12 @@
 		height: 18px;
 	}
 	.checkbox__label:before {
-		left: 5px;
-		top: 2px;
-		width: 6px;
-		height: 11px;
-		z-index: 100;
-		border-width: 3px;
+		    left: 5px;
+		    top: 1px;
+		    width: 6px;
+		    height: 11px;
+		    z-index: 100;
+		    border-width: 2px;
 	}
 	.checkbox__text-label {
 		height: 18px;
