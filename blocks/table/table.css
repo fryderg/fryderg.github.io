@@ -4,12 +4,10 @@
     overflow: hidden;
 	position: relative;
     width: 100%;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
     text-align: left;
     border-collapse: collapse;
     table-layout: fixed;
@@ -22,10 +20,11 @@
 
 .table__tr:first-child {
     background: #c4092f;
+    border-top: 1px solid #c4092f;
+border-bottom: none; 
 }
 
-.table__tr:last-child,
-.table__tr:first-child {
+.table__tr:last-child {
 	border-bottom: none; 
 }
 
@@ -35,6 +34,14 @@
     font-size: 14px;
     font-weight: 400;
     border: none !important;
+}
+
+.table__th:first-child {
+	border-left: 1px solid #c4092f;
+}
+
+.table__th:last-child {
+	border-right: 1px solid #c4092f;
 }
 
 .table__th_name {
