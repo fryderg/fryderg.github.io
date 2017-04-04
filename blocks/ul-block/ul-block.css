@@ -17,6 +17,12 @@
 	border-top: 1px solid #e3e4e4;
 }
 
+.ul-block__table-item {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.3125em 0;
+}
+
 .ul-block__table-item_name {
 	width: 50%;
 	clear: both;
@@ -60,13 +66,6 @@
     padding-right: 1.25em;
     margin-bottom: 0.625em;
 }
-
-.ul-block__table-item {
-    display: inline-block;
-    float: left;
-    padding: 0.3125em 0;
-}
-
 
 @media only screen and (min-width : 720px) {
 	.ul-block_xs-table {
